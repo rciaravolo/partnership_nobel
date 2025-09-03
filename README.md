@@ -10,16 +10,6 @@ Dashboard executivo com sistema de autenticação e autorização para visualiza
 - **Dashboard Interativo**: Visualização da matriz de partnership
 - **Filtros Avançados**: Por quadrante, equipe e faixa de pontuação
 
-## 👥 Usuários Padrão
-
-| Usuário | Senha | Nível |
-|---------|-------|-------|
-| vitor.baqueiro | Nobelpartnership2025 | Líder |
-| marco.silveira | Nobelpartnership2025 | Líder |
-| viviane.fabbri | Nobelpartnership2025 | Líder |
-| bruna.yendo | Nobelpartnership2025 | Líder |
-| rafael.bonfim | Nobelpartnership2025 | Líder |
-| carlos.corvelloni | Nobelpartnership2025 | Líder |
 
 ## 🛠️ Instalação
 

@@ -60,7 +60,7 @@ def create_scatter_plot(df_filtrado):
         
     cores_quadrantes = {
         'Diluição': '#E74C3C',
-        'Manutenção': '#F39C12',
+        'Manutenção': '#F39C12', 
         'Opção de Compra': '#3498DB',
         'Ganho de Equity': '#27AE60'
     }
@@ -198,7 +198,7 @@ def main():
             min_value=0,
             max_value=100,
             value=(0, 100),
-            step=5
+            step=10
         )
     
     # Filtrar dados
@@ -247,7 +247,7 @@ def main():
     .metric-value {
         font-size: 32px;
         font-weight: bold;
-        color: #1f77b4;
+        color: #0d0d0d;
         margin: 0;
     }
     </style>
@@ -314,7 +314,7 @@ def main():
     # Aplicar estilos: cores por quadrante e centralização completa
     styled_df = df_display.style.applymap(color_quadrante, subset=['Quadrante']).set_properties(**{
         'text-align': 'center',
-        'vertical-align': 'middle'
+        'vertical-align': 'center'
     }).set_table_styles([
         {'selector': 'th', 'props': [('text-align', 'center'), ('font-weight', 'bold')]},
         {'selector': 'td', 'props': [('text-align', 'center'), ('padding', '8px')]}
